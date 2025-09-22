@@ -49,14 +49,3 @@ This project is a minimal prototype that allows users to **upload a document (PD
 - No persistent storage — documents and chunks exist only for the notebook session.
 - Small open-source models (e.g., Flan-T5) are used to avoid API costs.
 
----
-
-## 💡 Potential Improvements
-- **Support larger documents** with vector DBs (FAISS, Chroma) instead of TF-IDF.
-- **OCR integration** for scanned PDFs.
-- **Citation highlighting** in answers (pointing to exact document snippet).
-- **Multi-document Q&A** (upload several docs at once).
-- **Authentication & persistence** if deployed for multiple users.
-- **Flutter frontend** (planned) to integrate with this backend, for mobile/web deployment.
-- **Docker containerization** for easier setup.
-- **Streaming answers** in the UI for a more conversational feel.
